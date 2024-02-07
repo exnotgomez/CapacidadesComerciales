@@ -1,0 +1,158 @@
+@import url('https://fonts.cdnfonts.com/css/proxima-nova-2');
+
+body {
+    font-family: 'Proxima Nova', sans-serif;
+    background: #EDEDED;
+    font-weight: bold;
+}
+
+/* ___________________________________sidebar__________________________________  */
+.app-sidebar__heading {
+    color: #742D8E;
+}
+
+.vertical-nav-menu ul:before {
+    background: #742D8E;
+}
+
+.hamburger-inner,
+.hamburger-inner::before,
+.hamburger-inner::after {
+    background: #742D8E;
+}
+
+.hamburger.is-active .hamburger-inner,
+.hamburger.is-active .hamburger-inner::before,
+.hamburger.is-active .hamburger-inner::after {
+    background: #742D8E;
+}
+
+.vertical-nav-menu ul>li>a.mm-active {
+    background: #EDEDED;
+    color: black;
+}
+
+.vertical-nav-menu li a.mm-active {
+    background: #EDEDED;
+}
+
+.vertical-nav-menu li a:hover {
+    background: #EDEDED;
+    color: #491D69;
+}
+
+.vertical-nav-menu ul>li>a:hover {
+    color: #742D8E;
+}
+
+/* ___________________________________main__outer__________________________________  */
+
+.page-title-icon {
+    color: #742D8E;
+}
+
+/* ___________________________________seccion1__________________________________  */
+.seccion1 .accordion-item {
+    border: none;
+}
+
+.seccion1 .btn-settings {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    background: #ffff;
+    border-radius: 5px;
+    padding: 7px 14px;
+    transition: 0.4s;
+    margin: 10px;
+    border: none;
+}
+
+.seccion1 .btn-settings:hover {
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    color: #742D8E;
+}
+
+.seccion1 .btn-enviar {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    border: 1px solid #742D8E;
+    border-radius: 5px;
+    padding: 7px 14px;
+    transition: 0.4s;
+    background: none;
+    margin: 10px;
+    width: 70%;
+
+}
+
+.seccion1 .btn-enviar:hover {
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    background: #742D8E;
+    color: #ffffff;
+}
+
+.seccion1 .title {
+    font-size: 14px;
+}
+
+.seccion1 .content::placeholder {
+    color: #BEC7D0;
+    font-size: 13px;
+}
+
+.seccion1 .edit {
+    color: #742D8E;
+    background: none;
+    border: none;
+
+}
+
+
+/* ___________________________________modal__________________________________  */
+.modal-content {
+    background: #EDEDED;
+}
+
+.modal .modal-title {
+    margin-left: 10px;
+    color: #7F6096;
+}
+
+.modal .modal-title .fa-lightbulb {
+    padding: 10px;
+}
+
+.modal .closeicon {
+    background: #ffff;
+    border: none;
+}
+
+.modal .closeicon .fa-circle-xmark {
+    color: #742D8E;
+}
+
+.modal .closeicon .fa-circle-xmark:hover {
+    color: #491D69;
+}
+
+.modal .btn-enviar {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    border: 1px solid #742D8E;
+    border-radius: 5px;
+    padding: 7px 14px;
+    transition: 0.4s;
+    background: none;
+    margin: 10px;
+    width: 70%;
+
+}
+
+.modal .btn-enviar:hover {
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    background: #742D8E;
+    color: #ffffff;
+}
+
+/* ___________________________________swal__________________________________  */
+
+.swal-modal .swal-text {
+    text-align: center;
+}

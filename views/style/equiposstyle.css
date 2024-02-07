@@ -1,0 +1,332 @@
+@import url('https://fonts.cdnfonts.com/css/proxima-nova-2');
+
+body {
+    background: #EDEDED;
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: bold;
+}
+
+/* ___________________________________navbar__________________________________  */
+.nav-bar {
+    background: white;
+}
+
+.nav-bar .sidebaricon {
+    padding: 5px 10px 2px 10px;
+    background: #F0F0F0;
+    border-radius: 10px;
+    border: none;
+    margin-top: 5px;
+}
+
+.sidebaricon .fa-bars {
+    color: #742D8E;
+}
+
+.sidebaricon .fa-bars:hover {
+    color: #491D69;
+}
+
+.search {
+    margin-top: 5px;
+    background: rgb(255, 255, 255);
+    border-radius: 25px;
+    width: fit-content;
+    display: flex;
+    padding: 4px;
+    float: right;
+}
+
+.search input {
+    background: transparent;
+    transition: 0.4s;
+    outline: none;
+    padding: 0;
+    border: 0;
+    width: 0;
+}
+
+.search .fa-chevron-left {
+    color: #742D8E;
+    margin-top: 10px;
+    background: transparent;
+    transition: 0.4s;
+    outline: none;
+    padding: 0;
+    border: 0;
+    width: 0;
+}
+
+.search:hover input {
+    padding: 0px 0px 0px 20px;
+    border-radius: 25px;
+    width: 200px;
+}
+
+.search:hover .fa-chevron-left {
+    margin-top: 10px;
+    padding: 0px 0px 0px 17px;
+}
+
+.search:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.search .fa-magnifying-glass {
+    color: #742D8E;
+    transition: 0.4s;
+}
+
+.search .searchicon {
+    background: #ffffff;
+    border-radius: 50%;
+    padding: 5.5px;
+}
+
+/* ___________________________________sidebar__________________________________  */
+.offcanvas-header {
+    -webkit-box-shadow: 0px 21px 50px -28px #000000;
+    box-shadow: 0px 21px 50px -28px #000000;
+}
+
+.closeicon {
+    background: #ffffff;
+    border: none;
+}
+
+.closeicon .fa-circle-xmark {
+    color: #742D8E;
+}
+
+.closeicon .fa-circle-xmark:hover {
+    color: #491D69;
+}
+
+.nav li label {
+    cursor: pointer;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: #742D8E;
+    cursor: pointer;
+}
+
+.nav li a:hover,
+.fa-solid:hover {
+    text-decoration: none;
+    color: #491D69;
+    cursor: pointer;
+}
+
+/* ___________________________________volver__________________________________  */
+.back {
+    background: #EDEDED;
+    padding: 15px 10px 15px 10px;
+}
+
+.back a {
+    color: #742D8E;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* ___________________________________seccion1__________________________________  */
+.seccion1 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.seccion1 .content {
+    margin-top: 117px;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+/* ___________________________________seccion2__________________________________  */
+
+.seccion2 .content {
+    margin: 0px 8px 0px 8px;
+    background: white;
+    border-radius: 10px;
+}
+
+.seccion2 .content1 {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    height: auto;
+}
+
+.seccion2 .content2 {
+    padding: 10px;
+}
+
+.seccion2 .content2 .title .name {
+    color: #1A0537;
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+.seccion2 .content2 .title .job {
+    color: #1A053780;
+    margin-top: -10px;
+    font-size: 16px;
+}
+
+.seccion2 .content2 .text {
+    word-wrap: break-word;
+    font-style: oblique;
+    color: #6E7279CC;
+    margin-top: 25px;
+    font-size: 16px;
+}
+
+.seccion2 .content2 .contact {
+    padding: 0px 0px 20px 0px;
+    color: #742D8E;
+}
+
+.seccion2 .content3 {
+    margin-top: 8px;
+}
+
+/* ___________________________________seccion3__________________________________  */
+.seccion3 .cargos {
+
+    border-bottom: 3px solid #DDDDDD;
+    transition: .7s;
+}
+
+.seccion3 .cargos button {
+    text-decoration: none;
+    padding: 10px 10px;
+    color: #742D8E;
+    border: none;
+}
+
+.seccion3 .cargos:hover {
+    border-bottom: 3px solid #742D8E;
+    color: #742D8E;
+
+}
+
+/* ___________________________________seccion4__________________________________  */
+.seccion4 {
+    background: linear-gradient(#FFFFFFCB, #EEEEEE);
+    border-radius: 20px 20px 0 0;
+}
+
+.seccion4 .content {
+    margin: 0px 8px 0px 8px;
+    background: white;
+    border-radius: 10px;
+}
+
+.seccion4 .imgp-1 {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    height: auto;
+}
+
+.seccion4 .content2 {
+    padding: 10px;
+}
+
+.seccion4 .content2 .title .name {
+    color: #1A0537;
+    margin-top: 0px;
+    font-size: 22px;
+}
+
+.seccion4 .content2 .title .job {
+    color: #1A053780;
+    margin-top: -10px;
+    font-size: 16px;
+}
+
+.seccion4 .content2 .text {
+    word-wrap: break-word;
+    font-style: oblique;
+    color: #6E7279CC;
+    margin-top: 25px;
+    font-size: 16px;
+}
+
+.seccion4 .content2 .contact {
+    padding: 0px 0px 20px 0px;
+    color: #742D8E;
+}
+
+.seccion4 .content3 {
+    margin-top: 8px;
+}
+
+
+/* ___________________________________footer__________________________________  */
+footer {
+    background: linear-gradient(#491D69, #34154F);
+    border-radius: 20px 20px 0 0;
+    color: white;
+}
+
+footer .title {
+    padding: 26px 0px 0px 0px;
+}
+
+footer .down {
+    padding: 19px 0px 0px 0px;
+}
+
+footer .down .fa-down {
+    background: #FFFFFF5D;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+footer .line {
+    border-left: 1px solid #FFFFFF;
+    margin-top: 29px;
+    opacity: 0.1;
+    height: 90%;
+}
+
+footer .apps {
+    margin-left: -38px;
+}
+
+footer .hr {
+    border-top: 1px solid #FFFFFF;
+    margin-top: 14px;
+    opacity: 0.27;
+    width: 100%;
+
+}
+
+footer .contenidoApps {
+    color: white;
+    text-decoration: none;
+}
+
+footer .contenidoApps:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+footer .copyright {
+    background: linear-gradient(#34154F74, #34154F, #34154F72);
+    position: relative;
+    color: #FFFFFFCC;
+    padding: 20px;
+}
+
+footer .copyright label {
+    text-align: left;
+    font-size: 6.5px;
+}
